@@ -17,6 +17,6 @@ Daria
 
 
 
-ng build --output-path docs --base-href /reaktor-drone
+ng build --output-path docs --base-href /reaktor-drone/
 
 git add . && git commit -m 'deploy' && git push origin main
