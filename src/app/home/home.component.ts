@@ -64,7 +64,7 @@ export class HomeComponent {
 
 getPilotInfo(serialNumber:any) {
   // const url = `https://assignments.reaktor.com/birdnest/pilots/${serialNumber}`;
-  const url = `/assets/pilot.json`;
+  const url = `assets/pilot.json`;
   this.http.get(url).subscribe( result => 
     {
         this.pilot_info.push(result);

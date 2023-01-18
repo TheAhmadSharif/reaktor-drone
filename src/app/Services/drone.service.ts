@@ -16,7 +16,7 @@ export class DroneService {
     //  apiURL = 'https://api-yqjp.onrender.com/drone';
 
       
-     apiURL = '/assets/data.xml';
+     apiURL = 'assets/data.xml';
   fetchData(): Observable<any> {
   	 return  this.http.get(this.apiURL,  
       {  
