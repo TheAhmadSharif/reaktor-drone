@@ -42,7 +42,7 @@ export class HomeComponent {
           if(this.pilot_info.length > 0) {
               this.pilot_info = [];
           }
-      }, 8000);
+      }, 60*60*10);
 
 
       let JSONDatas = [
