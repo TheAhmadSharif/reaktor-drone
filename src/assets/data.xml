@@ -1,0 +1,60 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+  <deviceInformation deviceId="GUARDB1RD">
+    <listenRange>500000</listenRange>
+    <deviceStarted>2023-01-01T14:12:16.751Z</deviceStarted>
+    <uptimeSeconds>25075</uptimeSeconds>
+    <updateIntervalMs>2000</updateIntervalMs>
+  </deviceInformation>
+  <capture snapshotTimestamp="2023-01-01T21:10:12.204Z">
+    <drone>
+      <serialNumber>SN-EWAtKelxfg</serialNumber>
+      <model>Altitude X</model>
+      <manufacturer>DroneGoat Inc</manufacturer>
+      <mac>00:d5:b4:fe:ba:49</mac>
+      <ipv4>96.190.198.65</ipv4>
+      <ipv6>1bd9:cdc1:5aa0:98d2:a377:e976:32f5:0915</ipv6>
+      <firmware>1.3.7</firmware>
+      <positionY>24950</positionY>
+      <positionX>24950</positionX>
+      <altitude>4147.497584047697</altitude>
+    </drone>
+    <drone>
+      <serialNumber>SN-HEZCQBTfmm</serialNumber>
+      <model>Mosquito</model>
+      <manufacturer>MegaBuzzer Corp</manufacturer>
+      <mac>42:15:09:99:10:7a</mac>
+      <ipv4>113.204.195.28</ipv4>
+      <ipv6>0514:a7cc:0f39:271a:4f1d:0411:6b4c:38bf</ipv6>
+      <firmware>6.0.9</firmware>
+      <positionY>127758.96998949042</positionY>
+      <positionX>323402.9033699118</positionX>
+      <altitude>4226.053931183469</altitude>
+    </drone>
+    <drone>
+      <serialNumber>SN-DQgUBLv-DM</serialNumber>
+      <model>Altitude X</model>
+      <manufacturer>DroneGoat Inc</manufacturer>
+      <mac>d6:79:51:26:97:70</mac>
+      <ipv4>49.101.197.43</ipv4>
+      <ipv6>9bc7:408e:8475:d8c3:6572:08de:0aac:d277</ipv6>
+      <firmware>8.9.5</firmware>
+      <positionY>105141.91204557806</positionY>
+      <positionX>267819.2816797632</positionX>
+      <altitude>4498.088167802903</altitude>
+    </drone>
+    <drone>
+      <serialNumber>SN-ADFD-ikUig</serialNumber>
+      <model>Eagle</model>
+      <manufacturer>MegaBuzzer Corp</manufacturer>
+      <mac>95:55:50:a1:03:99</mac>
+      <ipv4>9.120.105.223</ipv4>
+      <ipv6>5a85:05ce:3cac:707f:17fc:d189:44d7:b023</ipv6>
+      <firmware>4.0.7</firmware>
+      <positionY>301067.45853996783</positionY>
+      <positionX>214431.84541477883</positionX>
+      <altitude>4857.289387457836</altitude>
+    </drone>
+  </capture>
+</report>

@@ -1,0 +1,18 @@
+
+<h4>100 meter close drone from the nest </h4>
+<li *ngFor="let obj of this.contents">
+    Position x : {{ obj.positionX   }} <br>
+    Position y :  {{ obj.positionY   }} <br>
+    serialNumber : {{ obj.serialNumber   }} <br>
+    Distance : {{ obj.distance }}
+</li>
+
+
+<div>
+    <h4>Drone Pilot Information</h4>
+    <li *ngFor="let obj of this.pilot_info">
+        {{ obj.firstName + ' ' + obj.lastName }} <br>
+        {{ obj.phoneNumber }} <br>
+        {{ obj.email }}
+    </li>
+</div>

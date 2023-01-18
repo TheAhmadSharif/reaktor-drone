@@ -1,0 +1,22 @@
+1. I can not make http get request for the follwing API due to CORS issue
+
+GET assignments.reaktor.com/birdnest/pilots/:serialNumber
+GET assignments.reaktor.com/birdnest/drones
+
+
+ng build --configuration production
+
+Hi Ahmad,
+
+Thanks for your email! The API isn't intended for direct usage with web browsers, so we are not adding CORS headers to the responses. Consider that taking an approach like that would also fail another objective of the assignment, which is to immediately display the same data from the past 10 minutes to all users.
+
+Let me know if you have any other questions.
+
+Regards,
+Daria 
+
+
+
+ng build --output-path docs --base-href /reaktor-drone
+
+git add . && git commit -m 'deploy' && git push origin main
