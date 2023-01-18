@@ -12,9 +12,11 @@ import * as xml2js from 'xml2js';
 export class DroneService {
 
    constructor(private http:HttpClient) { }
-      apiURL = 'http://assignments.reaktor.com/birdnest/drones';
-   // apiURL = '/assets/data.xml';
+    //   apiURL = 'https://assignments.reaktor.com/birdnest/drones';
+    //  apiURL = 'https://api-yqjp.onrender.com/drone';
 
+      
+     apiURL = '/assets/data.xml';
   fetchData(): Observable<any> {
   	 return  this.http.get(this.apiURL,  
       {  

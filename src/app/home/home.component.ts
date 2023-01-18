@@ -28,6 +28,7 @@ export class HomeComponent {
       .subscribe((data:any) => {  
         this.parseXML(data)  
           .then((data:any) => {  
+            console.log(data, 'data');
             this.contents = data;  
 
            
@@ -62,8 +63,8 @@ export class HomeComponent {
 
 
 getPilotInfo(serialNumber:any) {
-  const url = `https://assignments.reaktor.com/birdnest/pilots/${serialNumber}`;
-  // const url = `/assets/pilot.json`;
+  // const url = `https://assignments.reaktor.com/birdnest/pilots/${serialNumber}`;
+  const url = `/assets/pilot.json`;
   this.http.get(url).subscribe( result => 
     {
         this.pilot_info.push(result);
